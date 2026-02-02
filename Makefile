@@ -4,8 +4,8 @@ YML		:= srcs/docker-compose.yml
 all: $(NAME)
 
 $(NAME):
-	mkdir -p /home/fceragio/wordpress
-	mkdir -p /home/fceragio/mariadb
+	mkdir -p /home/fceragio/data/wordpress
+	mkdir -p /home/fceragio/data/mariadb
 	docker compose -f $(YML) up --build -d
 
 down:
@@ -26,9 +26,9 @@ fclean: clean
 prune:
 	docker system prune --all --volumes
 
-	rm -rf /home/fceragio/wordpress
-	rm -rf /home/fceragio/mariadb
-	rm -rf /home/fceragio
+	rm -rf /home/fceragio/data/wordpress
+	rm -rf /home/fceragio/data/mariadb
+	rm -rf /home/fceragio/data/
 	
 domain:	
 	sudo echo "127.0.0.1 fceragio.42.fr" >> /etc/hosts

@@ -4,10 +4,10 @@ CERTS=/etc/ssl
 
 
 # Mariadb
-DB_HOST=mariadb
-DB_PORT=3306
-DB_NAME=wordpress
-DB_USER_NAME=dbUser
+DB_HOST=example
+DB_PORT=example
+DB_NAME=example
+DB_USER_NAME=example
 
 
 # Wordpress

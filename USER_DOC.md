@@ -29,10 +29,10 @@ In the same way, you will also have to make a '.env' file based on the 'example_
 
 
 	# Mariadb
-	DB_HOST=mariadb
-	DB_PORT=3306
-	DB_NAME=wordpress
-	DB_USER_NAME=dbUser
+->	DB_HOST="database host name"
+->	DB_PORT="the port for the database"
+->	DB_NAME="name for the database"
+->	DB_USER_NAME="user of the databse"
 
 
 	# Wordpress

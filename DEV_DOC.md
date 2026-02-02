@@ -41,8 +41,8 @@ entrypoint scripts.
 The project uses Docker named volumes to persist data.
 
 Two volumes are defined:
-- mariadb_data		found in /home/fceragio/data/mariadb
-- wordpress_data	found in /home/fceragio/data/wordpress
+- mariadb_data		found in /home/fceragio/data//data/mariadb
+- wordpress_data	found in /home/fceragio/data//data/wordpress
 
 These volumes are mapped to the host filesystem under:
 
