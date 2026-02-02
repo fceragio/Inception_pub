@@ -1,0 +1,20 @@
+# General
+DOMAIN_NAME=fceragio.42.fr
+CERTS=/etc/ssl
+
+
+# Mariadb
+DB_HOST=mariadb
+DB_PORT=3306
+DB_NAME=wordpress
+DB_USER_NAME=dbUser
+
+
+# Wordpress
+WP_TITLE="EXAMPLE"
+
+WP_USER_NAME=example
+WP_USER_MAIL=example@example.jp
+
+WP_ADMIN_NAME=example
+WP_ADMIN_MAIL=example@example.jp
